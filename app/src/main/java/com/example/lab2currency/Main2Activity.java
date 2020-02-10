@@ -17,7 +17,7 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent=getIntent();
         String str=intent.getStringExtra("dollars");
         int dollar_int = Integer.parseInt(str);
-        double euros=0.76*dollar_int;
+        double euros=0.77*dollar_int;
         textview2.setText(Double.toString(euros));
     }
 }
